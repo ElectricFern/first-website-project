@@ -1,0 +1,165 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: scroll;
+    background: url('pinkpurplegradient.jpg'); /*https://www.freeprettythingsforyou.com/wp-content/uploads/2018/01/pretty-gradient-background-digital-paper-FPTFY-4.jpg*/
+	background-repeat: no-repeat;
+	background-size: cover;
+    text-align: center;
+}
+#main {
+    width: 960px;
+    height: auto;
+    background: #fffdeb;
+    margin: 25px auto;
+    border: solid 2px #6c0051;
+    border-bottom: none;
+    padding: 10px;
+	overflow: visible;
+}
+h1 {
+    text-align: center;
+    font-family: "Helvetica";
+    font-size: 26pt;
+    color: #6c0051;
+}
+#nav {
+	background-color: #b63c42;
+}
+#nav_wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#nav ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position; relative;
+}
+#nav ul li{
+	display: inline-block;
+}
+#nav ul li:hover{
+	background-color: #df3939;
+}
+#nav ul li a,visited{
+	color: #ffffff;
+	display: block;
+	padding: 18px;
+    text-decoration: none;	
+	font-family: "Helvetica";
+	font-size: 12pt;
+}
+#nav ul li a:hover{
+	color: #64a6ff;
+	text-decoration: none;	
+}
+#nav ul li:hover ul{
+    display: block;
+}
+#nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: #b63c42;
+	border: 4px solid #b63c42;
+	border-top: 0;
+	margin-left: -4px;	
+}
+#nav ul ul li{
+	display: block;
+}
+#nav ul ul li a,visited{
+    color: #ffffff;
+}
+#nav ul ul li a: hover{
+	color:  #1c4056;
+}
+p {
+	width: auto;
+	height: auto;
+    border: 2px solid #6c0051;
+    padding: 10px 10px;
+	font-family: "Helvetica";
+	font-size: 12pt;
+	text-align: left;
+	color: #6c0051;	
+	overflow: hidden;
+}
+img {
+	float: right;
+	padding-right: 10px;
+}
+.logocontainer {
+	float: left;
+}
+table {
+	border-collapse: collapse;	
+	margin-top: 25px;
+	margin-left: 200px;
+	margin-bottom: 25px;
+}
+table th {
+	text-align: left;
+	color: #79abd6;
+	background-color: #893273;
+	border: 2px solid #032b44;
+}
+table td { 
+	border: 2px solid #032b44; 
+	padding: 4px 8px;
+	color: #893273;
+	background-color: #dbcfe7;
+}
+table tr:nth-child(odd) td {
+	background-color: #cfb9ec;
+}
+a { 
+   text-decoration: none;
+   color: #6c0051;
+}
+* {
+    box-sizing: border-box;
+}
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-container2 {
+    float: left;
+    width: 50%;
+    padding: 5px;	
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-container3 {
+    float: left;
+    width: 100%;
+    padding: 5px;	
+}
+form {
+	font-family: helvetica;
+	font-size: 12pt;
+	padding: 10px;
+	color: #893273;
+}
+video {
+	margin-bottom: 75px;
+}
+
+
+
+
+
+	
+	
+		
